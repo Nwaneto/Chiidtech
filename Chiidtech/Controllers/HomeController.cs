@@ -23,6 +23,16 @@ namespace Chiidtech.Controllers
             return View();
         }
 
+        public IActionResult Signin()
+        {
+            return View();
+        }
+
+        public IActionResult SignUp()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
